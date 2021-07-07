@@ -1,0 +1,13 @@
+// flex column mixin
+
+@mixin flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+// block align
+@mixin align-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
