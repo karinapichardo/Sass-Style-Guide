@@ -5,29 +5,21 @@
 .btn {
     margin-top: 15px;
     width: 100%;
-    color: #fff;
+    color: $white;
     border: none;
     padding: 10px 0;
     text-transform: uppercase;
-    border-radius: 5px;
+    border-radius: $br;
 }
 
-.default {
-    background-color: #51ddfc;
-}
+@each $btn,
+$color in $btns {
+    .#{$btn} {
+        background-color: $color;
 
-.error {
-    background-color: #e4757a;
-}
-
-.info {
-    background-color: #927bc1;
-}
-
-.success {
-    background-color: #63cc82;
-}
-
-.warning {
-    background-color: #fd7856;
+        &:hover {
+            background-color: lighten($color, 15%);
+            transition: background-color 0.3s ease-in;
+        }
+    }
 }
