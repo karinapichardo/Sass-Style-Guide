@@ -1,0 +1,53 @@
+// ======================================
+//  Variables
+// ======================================
+
+
+// Typography Colors
+$white: #fff;
+$color-primary: #777;
+$color-secondary: #58e1c1;
+
+// Button Colors
+$color-default: #51ddfc;
+$color-success: #63cc82;
+$color-error: #e4757a;
+$color-warning: #fd7856;
+$color-info: #927bc1;
+
+// Button Map
+$btns: ('default': $color-default,
+    'error': $color-error,
+    'info': $color-info,
+    'success': $color-success,
+    'warning': $color-warning,
+);
+
+// Font Stacks
+$font-stack-primary: 'Lato',
+sans-serif;
+
+// Font Weights
+$light-weight: 300;
+$heavy-weight: 700;
+
+// Border Radius
+$br: 5px;
+
+// Theme Colors
+$themes: (1: $color-info,
+    2: $color-warning,
+    3: #deb2ee,
+    4: #7ee6fd,
+    5: #88d9a0,
+    6: #4da2bb,
+    7: #ec9fa3,
+    8: #fd9f85,
+    9: $color-error,
+    10: #63cc82,
+    11: $color-default,
+    12: #80e8d1,
+);
+
+// Media Query Breakpoint 
+$break-m: 'min-width: 768px';
